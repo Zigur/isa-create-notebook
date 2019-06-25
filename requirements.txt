@@ -1,0 +1,9 @@
+bokeh==1.2.0
+holoviews==1.12.3
+ipywidgets==7.4.2
+jupyter==1.0
+numpy==1.16
+pandas==0.24.2
+python-dateutil==2.8.0
+pytz==2019.1
+-e git+http://github.com/ISA-tools/isa-api@c02d432ead7d99abbb3d068ab263819365eeadf7#egg=isatools
