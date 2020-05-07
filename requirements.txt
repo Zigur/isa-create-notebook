@@ -8,7 +8,7 @@ numpy==1.17
 pandas==0.25.2
 python-dateutil==2.8.0
 pytz==2019.1
--e git+http://github.com/ISA-tools/isa-api@204a0c99a6778e03ae0cfd8d51ede15229b143b6#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@95f0d3179dbc07e6a07de7e337104f6b3bb7f854#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@4bdc18395dae9c7cd50c1a661f8363f4bc5d308f#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@7818462b08946c21c5b45f3dcea381e814953f6a#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@5fd22532c62a29487e796fc4b1202f598e4c2b6a#egg=isatools

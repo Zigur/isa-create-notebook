@@ -238,7 +238,7 @@
     {
       "id": "#arm/control",
       "name": "control",
-      "subjectType": "Homo Sapiens",
+      "subjectType": "Human",
       "size": 8,
       "epochs": [
         {
