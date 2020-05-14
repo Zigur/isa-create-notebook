@@ -49,8 +49,8 @@ Study Publication Status
 Study Publication Status Term Accession Number
 Study Publication Status Term Source REF
 STUDY FACTORS
-Study Factor Name	AGENT	DURATION	INTENSITY
-Study Factor Type	perturbation agent	time	intensity
+Study Factor Name	DURATION	INTENSITY	AGENT
+Study Factor Type	time	intensity	perturbation agent
 Study Factor Type Term Accession Number			
 Study Factor Type Term Source REF			
 STUDY ASSAYS
@@ -63,16 +63,16 @@ Study Assay Technology Type Term Accession Number
 Study Assay Technology Type Term Source REF					
 Study Assay Technology Platform					
 STUDY PROTOCOLS
-Study Protocol Name	sample collection	nmr spectroscopy	nmr spectroscopy	extraction	labelling	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	mass spectrometry	mass spectrometry	nmr spectroscopy	labelling	mass spectrometry	mass spectrometry	nmr spectroscopy
-Study Protocol Type	sample_collection	nmr spectroscopy	nmr spectroscopy	extraction	labelling	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	mass spectrometry	mass spectrometry	nmr spectroscopy	labelling	mass spectrometry	mass spectrometry	nmr spectroscopy
+Study Protocol Name	sample collection	nmr spectroscopy	mass spectrometry	mass spectrometry	labelling	mass spectrometry	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	extraction	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	nmr spectroscopy
+Study Protocol Type	sample_collection	nmr spectroscopy	mass spectrometry	mass spectrometry	labelling	mass spectrometry	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	extraction	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	nmr spectroscopy
 Study Protocol Type Term Accession Number																
 Study Protocol Type Term Source REF																
 Study Protocol Description																
 Study Protocol URI																
 Study Protocol Version																
-Study Protocol Parameters Name	run order;study cell	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode			instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;injection_mode;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode
-Study Protocol Parameters Name Term Accession Number	;	;;	;;			;;	;;	;;	;;	;;	;;	;;		;;	;;	;;
-Study Protocol Parameters Name Term Source REF	;	;;	;;			;;	;;	;;	;;	;;	;;	;;		;;	;;	;;
+Study Protocol Parameters Name	run order;study cell	instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;injection_mode;acquisition_mode		instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;pulse_sequence;acquisition_mode
+Study Protocol Parameters Name Term Accession Number	;	;;	;;	;;		;;	;;	;;	;;		;;	;;	;;	;;		;;
+Study Protocol Parameters Name Term Source REF	;	;;	;;	;;		;;	;;	;;	;;		;;	;;	;;	;;		;;
 Study Protocol Components Name																
 Study Protocol Components Type																
 Study Protocol Components Type Term Accession Number																
