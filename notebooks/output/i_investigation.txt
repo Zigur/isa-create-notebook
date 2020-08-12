@@ -49,30 +49,30 @@ Study Publication Status
 Study Publication Status Term Accession Number
 Study Publication Status Term Source REF
 STUDY FACTORS
-Study Factor Name	DURATION	INTENSITY	AGENT
-Study Factor Type	time	intensity	perturbation agent
+Study Factor Name	INTENSITY	DURATION	AGENT
+Study Factor Type	intensity	time	perturbation agent
 Study Factor Type Term Accession Number			
 Study Factor Type Term Source REF			
 STUDY ASSAYS
-Study Assay File Name	a_CELL_control_3_ASSAY_GRAPH_000_metabolite profiling_mass spectrometry.txt	a_CELL_control_3_ASSAY_GRAPH_001_metabolite profiling_nmr spectroscopy.txt	a_CELL_treatment_2_ASSAY_GRAPH_000_metabolite profiling_mass spectrometry.txt	a_CELL_treatment_3_ASSAY_GRAPH_000_metabolite profiling_mass spectrometry.txt	a_CELL_treatment_3_ASSAY_GRAPH_001_metabolite profiling_nmr spectroscopy.txt
+Study Assay File Name	a_CELL_control_3_ASSAY_GRAPH_001_metabolite-profiling_NMR-spectroscopy.txt	a_CELL_control_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_treatment_2_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_treatment_3_ASSAY_GRAPH_001_metabolite-profiling_NMR-spectroscopy.txt	a_CELL_treatment_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt
 Study Assay Measurement Type	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling
 Study Assay Measurement Type Term Accession Number					
 Study Assay Measurement Type Term Source REF					
-Study Assay Technology Type	mass spectrometry	nmr spectroscopy	mass spectrometry	mass spectrometry	nmr spectroscopy
+Study Assay Technology Type	NMR spectroscopy	mass spectrometry	mass spectrometry	NMR spectroscopy	mass spectrometry
 Study Assay Technology Type Term Accession Number					
 Study Assay Technology Type Term Source REF					
 Study Assay Technology Platform					
 STUDY PROTOCOLS
-Study Protocol Name	sample collection	nmr spectroscopy	mass spectrometry	mass spectrometry	labelling	mass spectrometry	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	extraction	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	nmr spectroscopy
-Study Protocol Type	sample_collection	nmr spectroscopy	mass spectrometry	mass spectrometry	labelling	mass spectrometry	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	extraction	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	nmr spectroscopy
+Study Protocol Name	sample collection	labelling	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	mass spectrometry	extraction	mass spectrometry	nmr spectroscopy	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	mass spectrometry
+Study Protocol Type	sample_collection	labelling	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	nmr spectroscopy	mass spectrometry	extraction	mass spectrometry	nmr spectroscopy	nmr spectroscopy	mass spectrometry	nmr spectroscopy	nmr spectroscopy	labelling	mass spectrometry
 Study Protocol Type Term Accession Number																
 Study Protocol Type Term Source REF																
 Study Protocol Description																
 Study Protocol URI																
 Study Protocol Version																
-Study Protocol Parameters Name	run order;study cell	instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;injection_mode;acquisition_mode		instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;pulse_sequence;acquisition_mode
-Study Protocol Parameters Name Term Accession Number	;	;;	;;	;;		;;	;;	;;	;;		;;	;;	;;	;;		;;
-Study Protocol Parameters Name Term Source REF	;	;;	;;	;;		;;	;;	;;	;;		;;	;;	;;	;;		;;
+Study Protocol Parameters Name	run order;study cell		instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode		instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;injection_mode;acquisition_mode	instrument;pulse_sequence;acquisition_mode	instrument;pulse_sequence;acquisition_mode		instrument;injection_mode;acquisition_mode
+Study Protocol Parameters Name Term Accession Number	;		;;	;;	;;	;;	;;		;;	;;	;;	;;	;;	;;		;;
+Study Protocol Parameters Name Term Source REF	;		;;	;;	;;	;;	;;		;;	;;	;;	;;	;;	;;		;;
 Study Protocol Components Name																
 Study Protocol Components Type																
 Study Protocol Components Type Term Accession Number																
