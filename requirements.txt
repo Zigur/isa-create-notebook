@@ -8,4 +8,4 @@ matplotlib==3.1.1
 #pandas~=1.0.3
 python-dateutil==2.8.0
 pytz==2019.1
--e git+http://github.com/ISA-tools/isa-api@4e1658750225119d5e88525266bccec350d88913#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@58ae0f5ce0416f3ca84bc054341d17aab2da096f#egg=isatools
