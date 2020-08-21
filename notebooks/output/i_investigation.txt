@@ -1,0 +1,91 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name
+Term Source File
+Term Source Version
+Term Source Description
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	
+Study Title	
+Study Description	
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_study_01.txt
+STUDY DESIGN DESCRIPTORS
+Study Design Type
+Study Design Type Term Accession Number
+Study Design Type Term Source REF
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	DURATION	INTENSITY	AGENT
+Study Factor Type	time	intensity	perturbation agent
+Study Factor Type Term Accession Number			
+Study Factor Type Term Source REF			
+STUDY ASSAYS
+Study Assay File Name	a_CELL_Arm_0_0_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_0_1_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_0_2_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_0_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_0_4_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_0_5_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_0_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_1_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_2_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_4_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_2_5_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_0_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_1_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_2_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_4_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_3_5_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_0_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_1_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_2_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_3_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_4_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt	a_CELL_Arm_4_5_ASSAY_GRAPH_000_metabolite-profiling_mass-spectrometry.txt
+Study Assay Measurement Type	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling
+Study Assay Measurement Type Term Accession Number																								
+Study Assay Measurement Type Term Source REF																								
+Study Assay Technology Type	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry
+Study Assay Technology Type Term Accession Number																								
+Study Assay Technology Type Term Source REF																								
+Study Assay Technology Platform																								
+STUDY PROTOCOLS
+Study Protocol Name	sample collection	extraction	labelling	mass spectrometry	mass spectrometry
+Study Protocol Type	sample_collection	extraction	labelling	mass spectrometry	mass spectrometry
+Study Protocol Type Term Accession Number					
+Study Protocol Type Term Source REF					
+Study Protocol Description					
+Study Protocol URI					
+Study Protocol Version					
+Study Protocol Parameters Name	run order;study cell			instrument;injection_mode;acquisition_mode	instrument;injection_mode;acquisition_mode
+Study Protocol Parameters Name Term Accession Number	;			;;	;;
+Study Protocol Parameters Name Term Source REF	;			;;	;;
+Study Protocol Components Name					
+Study Protocol Components Type					
+Study Protocol Components Type Term Accession Number					
+Study Protocol Components Type Term Source REF					
+STUDY CONTACTS
+Study Person Last Name
+Study Person First Name
+Study Person Mid Initials
+Study Person Email
+Study Person Phone
+Study Person Fax
+Study Person Address
+Study Person Affiliation
+Study Person Roles
+Study Person Roles Term Accession Number
+Study Person Roles Term Source REF
