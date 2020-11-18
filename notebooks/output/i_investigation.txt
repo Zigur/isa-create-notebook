@@ -54,17 +54,17 @@ Study Factor Type	intensity	perturbation agent	time
 Study Factor Type Term Accession Number			
 Study Factor Type Term Source REF			
 STUDY ASSAYS
-Study Assay File Name	a_A0E2_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A0E4_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A0E5_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A1E2_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A1E4_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A1E5_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A3E2_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A3E4_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A3E5_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A2E2_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A2E4_ASSAY0_metabolite-profiling_mass-spectrometry.txt	a_A2E5_ASSAY0_metabolite-profiling_mass-spectrometry.txt
-Study Assay Measurement Type	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling	metabolite profiling
-Study Assay Measurement Type Term Accession Number												
-Study Assay Measurement Type Term Source REF												
-Study Assay Technology Type	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry	mass spectrometry
-Study Assay Technology Type Term Accession Number												
-Study Assay Technology Type Term Source REF												
-Study Assay Technology Platform												
+Study Assay File Name	a_ASSAY0_metabolite-profiling_mass-spectrometry.txt
+Study Assay Measurement Type	metabolite profiling
+Study Assay Measurement Type Term Accession Number	
+Study Assay Measurement Type Term Source REF	
+Study Assay Technology Type	mass spectrometry
+Study Assay Technology Type Term Accession Number	
+Study Assay Technology Type Term Source REF	
+Study Assay Technology Platform	
 STUDY PROTOCOLS
-Study Protocol Name	sample collection	labelling	extraction	mass spectrometry	mass spectrometry
-Study Protocol Type	sample_collection	labelling	extraction	mass spectrometry	mass spectrometry
+Study Protocol Name	sample collection	extraction	labelling	mass spectrometry	mass spectrometry
+Study Protocol Type	sample_collection	extraction	labelling	mass spectrometry	mass spectrometry
 Study Protocol Type Term Accession Number					
 Study Protocol Type Term Source REF					
 Study Protocol Description					

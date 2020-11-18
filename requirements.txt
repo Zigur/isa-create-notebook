@@ -1,11 +1,8 @@
 bokeh==1.2.0
 holoviews==1.12.3
-#isatools==0.11
 ipywidgets==7.4.2
 jupyter==1.0
 matplotlib==3.1.1
-#numpy~=1.18
-#pandas~=1.0.3
 python-dateutil==2.8.0
 pytz==2019.1
--e git+http://github.com/ISA-tools/isa-api@e8d3081a62355b6dd797c33dcf875e9f0d5aed04#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@73233bfce761d152a3007bb4031d8095d033b7a5#egg=isatools
