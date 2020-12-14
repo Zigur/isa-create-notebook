@@ -105,3 +105,7 @@ venv.bak/
 
 #output files
 notebooks/output
+
+# macOS files
+.DS_Store
+notebooks/.DS_Store
