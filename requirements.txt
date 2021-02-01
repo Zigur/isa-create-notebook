@@ -5,4 +5,4 @@ jupyter==1.0
 matplotlib==3.1.1
 python-dateutil==2.8.0
 pytz==2019.1
--e git+http://github.com/ISA-tools/isa-api@965782c87927ee78209f186b66e613b4a3070ea8#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api#egg=isatools
