@@ -1,0 +1,407 @@
+{
+    "comments": [],
+    "description": "Investigates Bordatela pertussis infection and aims to accelerate the development of new vaccines",
+    "identifier": "PERISCOPE",
+    "ontologySourceReferences": [],
+    "people": [],
+    "publicReleaseDate": "",
+    "publications": [],
+    "studies": [
+        {
+            "assays": [],
+            "characteristicCategories": [],
+            "comments": [],
+            "description": "The BERT Booster against pertussis (whooping cough) study investigates\nlong-term protection against pertussis by giving a repeated vaccination against pertussis.",
+            "factors": [],
+            "filename": "s_bert.txt",
+            "identifier": "BERT",
+            "materials": {
+                "otherMaterials": [],
+                "samples": [
+                    {
+                        "@id": "#sample/4561289328",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "serum"
+                    },
+                    {
+                        "@id": "#sample/4561289376",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "serum"
+                    },
+                    {
+                        "@id": "#sample/4561289616",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "nasal mucosal lining fluid"
+                    }
+                ],
+                "sources": [
+                    {
+                        "@id": "#source/4561366992",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#119987e6-4bf2-4c66-9bda-d030ab81c208"
+                                },
+                                "value": {
+                                    "@id": "#3747acb8-6b86-4a7e-9be9-73db62f92343",
+                                    "annotationValue": "Homo Sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+                                    "termSource": "NCBITaxon"
+                                }
+                            }
+                        ],
+                        "name": "human individual-0"
+                    },
+                    {
+                        "@id": "#source/4561365264",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#119987e6-4bf2-4c66-9bda-d030ab81c208"
+                                },
+                                "value": {
+                                    "@id": "#3747acb8-6b86-4a7e-9be9-73db62f92343",
+                                    "annotationValue": "Homo Sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+                                    "termSource": "NCBITaxon"
+                                }
+                            }
+                        ],
+                        "name": "human individual-2"
+                    }
+                ]
+            },
+            "people": [
+                {
+                    "address": "",
+                    "affiliation": "Radboud UMC",
+                    "comments": [],
+                    "email": "evi.vanSchuppen@radboudumc.nl",
+                    "fax": "",
+                    "firstName": "Evi",
+                    "lastName": "van Schuppen",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                },
+                {
+                    "address": "",
+                    "affiliation": "RIVM, the Netherlands",
+                    "comments": [],
+                    "email": "guy.berbers@rivm.nl",
+                    "fax": "",
+                    "firstName": "Guy",
+                    "lastName": "Berbers",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                },
+                {
+                    "address": "",
+                    "affiliation": "University of Turku",
+                    "comments": [],
+                    "email": "ambark@utu.fi",
+                    "fax": "",
+                    "firstName": "Alex",
+                    "lastName": "Barkoff",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                },
+                {
+                    "address": "",
+                    "affiliation": "RIVM, the Netherlands",
+                    "comments": [],
+                    "email": "pieter.van.gageldonk@rivm.nl",
+                    "fax": "",
+                    "firstName": "Pieter",
+                    "lastName": "van Gageldonk",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                }
+            ],
+            "processSequence": [
+                {
+                    "@id": "#process/4340797936",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#4561363392"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/4561366992"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "@id": "#sample/4561289616"
+                        }
+                    ],
+                    "parameterValues": [],
+                    "performer": ""
+                },
+                {
+                    "@id": "#process/4561364352",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#4561364016"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/4561366992"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "@id": "#sample/4561289328"
+                        }
+                    ],
+                    "parameterValues": [],
+                    "performer": ""
+                }
+            ],
+            "protocols": [
+                {
+                    "@id": "#4561363392",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "sample collection-bert",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#75fa93d6-ba80-46a2-a816-cab351d8432f",
+                        "annotationValue": "sample collection",
+                        "comments": [],
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#4561364016",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "sample collection-bert",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#ee3834e8-ded4-4100-928a-c8fff26cbc02",
+                        "annotationValue": "sample collection",
+                        "comments": [],
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "uri": "",
+                    "version": ""
+                }
+            ],
+            "publicReleaseDate": "",
+            "publications": [],
+            "studyDesignDescriptors": [],
+            "submissionDate": "",
+            "title": "Booster Against Pertussis",
+            "unitCategories": []
+        },
+        {
+            "assays": [],
+            "characteristicCategories": [],
+            "comments": [],
+            "description": "The Human Challenge study investigates the effect of the Bordatela pertussis (whooping cough)\ninoculation on healthy individuals",
+            "factors": [],
+            "filename": "s_hcm.txt",
+            "identifier": "HCM",
+            "materials": {
+                "otherMaterials": [],
+                "samples": [
+                    {
+                        "@id": "#sample/4561289712",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "nasal mucosal lining fluid"
+                    },
+                    {
+                        "@id": "#sample/4561289424",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "serum"
+                    }
+                ],
+                "sources": [
+                    {
+                        "@id": "#source/4561366896",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#119987e6-4bf2-4c66-9bda-d030ab81c208"
+                                },
+                                "value": {
+                                    "@id": "#3747acb8-6b86-4a7e-9be9-73db62f92343",
+                                    "annotationValue": "Homo Sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+                                    "termSource": "NCBITaxon"
+                                }
+                            }
+                        ],
+                        "name": "human individual-1"
+                    },
+                    {
+                        "@id": "#source/4561365264",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#119987e6-4bf2-4c66-9bda-d030ab81c208"
+                                },
+                                "value": {
+                                    "@id": "#3747acb8-6b86-4a7e-9be9-73db62f92343",
+                                    "annotationValue": "Homo Sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+                                    "termSource": "NCBITaxon"
+                                }
+                            }
+                        ],
+                        "name": "human individual-2"
+                    }
+                ]
+            },
+            "people": [
+                {
+                    "address": "",
+                    "affiliation": "University of Southampton",
+                    "comments": [],
+                    "email": "email:ah1g12@soton.ac.uk",
+                    "fax": "",
+                    "firstName": "Alison",
+                    "lastName": "Hill",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                },
+                {
+                    "address": "",
+                    "affiliation": "Radboud UMC",
+                    "comments": [],
+                    "email": "evi.vanSchuppen@radboudumc.nl",
+                    "fax": "",
+                    "firstName": "Evi",
+                    "lastName": "van Schuppen",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                },
+                {
+                    "address": "",
+                    "affiliation": "RIVM, the Netherlands",
+                    "comments": [],
+                    "email": "guy.berbers@rivm.nl",
+                    "fax": "",
+                    "firstName": "Guy",
+                    "lastName": "Berbers",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                }
+            ],
+            "processSequence": [
+                {
+                    "@id": "#process/4561365120",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#4561365072"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/4561366896"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "@id": "#sample/4561289712"
+                        }
+                    ],
+                    "parameterValues": [],
+                    "performer": ""
+                },
+                {
+                    "@id": "#process/4561365696",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#4561365792"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/4561366896"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "@id": "#sample/4561289424"
+                        }
+                    ],
+                    "parameterValues": [],
+                    "performer": ""
+                }
+            ],
+            "protocols": [
+                {
+                    "@id": "#4561365072",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "sample collection-hcm-1",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#64e26e67-2f0d-49bf-a3a3-1b30815b6425",
+                        "annotationValue": "sample collection",
+                        "comments": [],
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#4561365792",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "sample collection-hcm-1",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#42796014-3e05-4992-8c2e-70b2a51c42a0",
+                        "annotationValue": "sample collection",
+                        "comments": [],
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "uri": "",
+                    "version": ""
+                }
+            ],
+            "publicReleaseDate": "",
+            "publications": [],
+            "studyDesignDescriptors": [],
+            "submissionDate": "",
+            "title": "Human Challenge Colonisation",
+            "unitCategories": []
+        }
+    ],
+    "submissionDate": "",
+    "title": "PERtussIS COrrelates of Protection Europe"
+}

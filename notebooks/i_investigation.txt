@@ -30,12 +30,12 @@ Investigation Person Roles
 Investigation Person Roles Term Accession Number
 Investigation Person Roles Term Source REF
 STUDY
-Study Identifier	2x2x2
-Study Title	2x2x2 factorial design study
-Study Description	a simple full factorial design study 2x2x2
-Study Submission Date	2013-04-23
-Study Public Release Date	2013-05-30
-Study File Name	s_study_2by2by2.txt
+Study Identifier	s_01
+Study Title	parallel group design 2x2x2 #1
+Study Description	
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_study_01.txt
 STUDY DESIGN DESCRIPTORS
 Study Design Type
 Study Design Type Term Accession Number
@@ -49,34 +49,34 @@ Study Publication Status
 Study Publication Status Term Accession Number
 Study Publication Status Term Source REF
 STUDY FACTORS
-Study Factor Name
-Study Factor Type
-Study Factor Type Term Accession Number
-Study Factor Type Term Source REF
+Study Factor Name	ionizing radiation	time post exposure	dose
+Study Factor Type	radiological agent	time	quantity
+Study Factor Type Term Accession Number			
+Study Factor Type Term Source REF			
 STUDY ASSAYS
-Study Assay File Name
-Study Assay Measurement Type
-Study Assay Measurement Type Term Accession Number
-Study Assay Measurement Type Term Source REF
-Study Assay Technology Type
-Study Assay Technology Type Term Accession Number
-Study Assay Technology Type Term Source REF
-Study Assay Technology Platform
+Study Assay File Name	a_ec07e5ae-e3e0-4b89-9f6a-582d8da5fb10_metabolite-profiling_nmr-spectroscopy.txt
+Study Assay Measurement Type	metabolite profiling
+Study Assay Measurement Type Term Accession Number	
+Study Assay Measurement Type Term Source REF	
+Study Assay Technology Type	nmr spectroscopy
+Study Assay Technology Type Term Accession Number	
+Study Assay Technology Type Term Source REF	
+Study Assay Technology Platform	
 STUDY PROTOCOLS
-Study Protocol Name	sample collection
-Study Protocol Type	
-Study Protocol Type Term Accession Number	
-Study Protocol Type Term Source REF	
-Study Protocol Description	
-Study Protocol URI	
-Study Protocol Version	
-Study Protocol Parameters Name	
-Study Protocol Parameters Name Term Accession Number	
-Study Protocol Parameters Name Term Source REF	
-Study Protocol Components Name	
-Study Protocol Components Type	
-Study Protocol Components Type Term Accession Number	
-Study Protocol Components Type Term Source REF	
+Study Protocol Name	sample collection	nmr_spectroscopy	extraction	nmr_spectroscopy
+Study Protocol Type	sample_collection	nmr_spectroscopy	extraction	nmr_spectroscopy
+Study Protocol Type Term Accession Number				
+Study Protocol Type Term Source REF				
+Study Protocol Description				
+Study Protocol URI				
+Study Protocol Version				
+Study Protocol Parameters Name	run order;study cell	instrument;acquisition_mode;pulse_sequence		instrument;acquisition_mode;pulse_sequence
+Study Protocol Parameters Name Term Accession Number	;	;;		;;
+Study Protocol Parameters Name Term Source REF	;	;;		;;
+Study Protocol Components Name				
+Study Protocol Components Type				
+Study Protocol Components Type Term Accession Number				
+Study Protocol Components Type Term Source REF				
 STUDY CONTACTS
 Study Person Last Name
 Study Person First Name

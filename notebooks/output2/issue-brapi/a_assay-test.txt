@@ -1,0 +1,2 @@
+Sample Name	Protocol REF	Performer	
+SBJ0_sample1	assay-on-source	Philippe	dummy.txt

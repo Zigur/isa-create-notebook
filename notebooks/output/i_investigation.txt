@@ -1,0 +1,91 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name
+Term Source File
+Term Source Version
+Term Source Description
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	
+Study Title	
+Study Description	
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_study_01.txt
+STUDY DESIGN DESCRIPTORS
+Study Design Type
+Study Design Type Term Accession Number
+Study Design Type Term Source REF
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	AGENT	DURATION	INTENSITY
+Study Factor Type	perturbation agent	time	intensity
+Study Factor Type Term Accession Number			
+Study Factor Type Term Source REF			
+STUDY ASSAYS
+Study Assay File Name	a_AT2_metabolite-profiling_NMR-spectroscopy.txt	a_AT14_transcriptomics-profiling_nucleic-acid-sequencing.txt	a_AT1_metabolite-profiling_mass-spectrometry.txt	a_AT16_DNA-methylation-profiling_nucleic-acid-sequencing.txt
+Study Assay Measurement Type	metabolite profiling	transcriptomics profiling	metabolite profiling	DNA methylation profiling
+Study Assay Measurement Type Term Accession Number			http://purl.obolibrary.org/obo/OBI_0000366	
+Study Assay Measurement Type Term Source REF				
+Study Assay Technology Type	NMR spectroscopy	nucleic acid sequencing	mass spectrometry	nucleic acid sequencing
+Study Assay Technology Type Term Accession Number			http://purl.obolibrary.org/obo/OBI_0000470	
+Study Assay Technology Type Term Source REF				
+Study Assay Technology Platform				
+STUDY PROTOCOLS
+Study Protocol Name	sample collection	nucleic acid sequencing	labeling	nmr_spectroscopy	extraction	nucleic acid sequencing	extraction
+Study Protocol Type	sample_collection	nucleic acid sequencing	labeling	nmr_spectroscopy	extraction	nucleic acid sequencing	extraction
+Study Protocol Type Term Accession Number			http://purl.obolibrary.org/obo/CHMO_0001675		http://purl.obolibrary.org/obo/OBI_0302884		
+Study Protocol Type Term Source REF							
+Study Protocol Description							
+Study Protocol URI							
+Study Protocol Version							
+Study Protocol Parameters Name	run order;study cell	sequencing instrument		instrument;acquisition_mode;pulse_sequence		sequencing instrument;library orientation	
+Study Protocol Parameters Name Term Accession Number	;			;;		;	
+Study Protocol Parameters Name Term Source REF	;			;;		;	
+Study Protocol Components Name							
+Study Protocol Components Type							
+Study Protocol Components Type Term Accession Number							
+Study Protocol Components Type Term Source REF							
+STUDY CONTACTS
+Study Person Last Name
+Study Person First Name
+Study Person Mid Initials
+Study Person Email
+Study Person Phone
+Study Person Fax
+Study Person Address
+Study Person Affiliation
+Study Person Roles
+Study Person Roles Term Accession Number
+Study Person Roles Term Source REF

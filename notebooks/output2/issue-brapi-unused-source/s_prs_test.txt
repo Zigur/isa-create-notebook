@@ -1,0 +1,6 @@
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Sample Name	Factor Value[development stage]
+human individual-0	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	SBJ0_sample1	adult
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	SBJ1_sample2	adult
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	SBJ1_sample1	adult
+human individual-2	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606		human individual-2	child
+human individual-3	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606		<NOT_USED>	child

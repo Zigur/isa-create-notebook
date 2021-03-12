@@ -1,0 +1,4 @@
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Date	Performer	Sample Name
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	2020-12-09	Philippe	SBJ1_sample1
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	2020-12-09	Philippe	SBJ1_sample2
+human individual-2	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	2020-12-09	Philippe	SBJ2

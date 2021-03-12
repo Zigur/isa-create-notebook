@@ -1,0 +1,81 @@
+Source Name	Characteristics[Study Subject]	Term Source REF	Term Accession Number	Protocol REF	Parameter Value[run order]	Parameter Value[study cell]	Date	Performer	Sample Name	Characteristics[organism part]
+GRP1_SBJ01	Mus musculus			sample collection	006	st_cl1	2021-01-29	Bob	GRP1_SBJ01_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ02	Mus musculus			sample collection	010	st_cl1	2021-01-29	Bob	GRP1_SBJ02_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ03	Mus musculus			sample collection	009	st_cl1	2021-01-29	Bob	GRP1_SBJ03_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ04	Mus musculus			sample collection	003	st_cl1	2021-01-29	Bob	GRP1_SBJ04_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ05	Mus musculus			sample collection	005	st_cl1	2021-01-29	Bob	GRP1_SBJ05_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ06	Mus musculus			sample collection	008	st_cl1	2021-01-29	Bob	GRP1_SBJ06_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ07	Mus musculus			sample collection	007	st_cl1	2021-01-29	Bob	GRP1_SBJ07_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ08	Mus musculus			sample collection	002	st_cl1	2021-01-29	Bob	GRP1_SBJ08_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ09	Mus musculus			sample collection	001	st_cl1	2021-01-29	Bob	GRP1_SBJ09_st_cl1_SMP-muscle-1	muscle
+GRP1_SBJ10	Mus musculus			sample collection	004	st_cl1	2021-01-29	Bob	GRP1_SBJ10_st_cl1_SMP-muscle-1	muscle
+GRP2_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	013	st_cl2	2021-01-29	Bob	GRP2_SBJ01_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	018	st_cl2	2021-01-29	Bob	GRP2_SBJ02_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	019	st_cl2	2021-01-29	Bob	GRP2_SBJ03_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	012	st_cl2	2021-01-29	Bob	GRP2_SBJ04_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	014	st_cl2	2021-01-29	Bob	GRP2_SBJ05_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	016	st_cl2	2021-01-29	Bob	GRP2_SBJ06_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	017	st_cl2	2021-01-29	Bob	GRP2_SBJ07_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	020	st_cl2	2021-01-29	Bob	GRP2_SBJ08_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	015	st_cl2	2021-01-29	Bob	GRP2_SBJ09_st_cl2_SMP-muscle-1	muscle
+GRP2_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	011	st_cl2	2021-01-29	Bob	GRP2_SBJ10_st_cl2_SMP-muscle-1	muscle
+GRP3_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	025	st_cl3	2021-01-29	Bob	GRP3_SBJ01_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	028	st_cl3	2021-01-29	Bob	GRP3_SBJ02_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	027	st_cl3	2021-01-29	Bob	GRP3_SBJ03_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	023	st_cl3	2021-01-29	Bob	GRP3_SBJ04_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	029	st_cl3	2021-01-29	Bob	GRP3_SBJ05_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	030	st_cl3	2021-01-29	Bob	GRP3_SBJ06_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	021	st_cl3	2021-01-29	Bob	GRP3_SBJ07_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	022	st_cl3	2021-01-29	Bob	GRP3_SBJ08_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	026	st_cl3	2021-01-29	Bob	GRP3_SBJ09_st_cl3_SMP-muscle-1	muscle
+GRP3_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	024	st_cl3	2021-01-29	Bob	GRP3_SBJ10_st_cl3_SMP-muscle-1	muscle
+GRP4_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	038	st_cl4	2021-01-29	Bob	GRP4_SBJ01_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	035	st_cl4	2021-01-29	Bob	GRP4_SBJ02_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	037	st_cl4	2021-01-29	Bob	GRP4_SBJ03_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	040	st_cl4	2021-01-29	Bob	GRP4_SBJ04_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	033	st_cl4	2021-01-29	Bob	GRP4_SBJ05_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	031	st_cl4	2021-01-29	Bob	GRP4_SBJ06_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	032	st_cl4	2021-01-29	Bob	GRP4_SBJ07_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	036	st_cl4	2021-01-29	Bob	GRP4_SBJ08_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	039	st_cl4	2021-01-29	Bob	GRP4_SBJ09_st_cl4_SMP-muscle-1	muscle
+GRP4_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	034	st_cl4	2021-01-29	Bob	GRP4_SBJ10_st_cl4_SMP-muscle-1	muscle
+GRP5_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	043	st_cl5	2021-01-29	Bob	GRP5_SBJ01_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	046	st_cl5	2021-01-29	Bob	GRP5_SBJ02_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	041	st_cl5	2021-01-29	Bob	GRP5_SBJ03_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	047	st_cl5	2021-01-29	Bob	GRP5_SBJ04_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	048	st_cl5	2021-01-29	Bob	GRP5_SBJ05_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	044	st_cl5	2021-01-29	Bob	GRP5_SBJ06_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	045	st_cl5	2021-01-29	Bob	GRP5_SBJ07_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	050	st_cl5	2021-01-29	Bob	GRP5_SBJ08_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	042	st_cl5	2021-01-29	Bob	GRP5_SBJ09_st_cl5_SMP-muscle-1	muscle
+GRP5_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	049	st_cl5	2021-01-29	Bob	GRP5_SBJ10_st_cl5_SMP-muscle-1	muscle
+GRP6_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	059	st_cl6	2021-01-29	Bob	GRP6_SBJ01_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	056	st_cl6	2021-01-29	Bob	GRP6_SBJ02_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	052	st_cl6	2021-01-29	Bob	GRP6_SBJ03_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	057	st_cl6	2021-01-29	Bob	GRP6_SBJ04_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	051	st_cl6	2021-01-29	Bob	GRP6_SBJ05_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	054	st_cl6	2021-01-29	Bob	GRP6_SBJ06_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	058	st_cl6	2021-01-29	Bob	GRP6_SBJ07_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	053	st_cl6	2021-01-29	Bob	GRP6_SBJ08_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	055	st_cl6	2021-01-29	Bob	GRP6_SBJ09_st_cl6_SMP-muscle-1	muscle
+GRP6_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	060	st_cl6	2021-01-29	Bob	GRP6_SBJ10_st_cl6_SMP-muscle-1	muscle
+GRP7_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	061	st_cl7	2021-01-29	Bob	GRP7_SBJ01_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	068	st_cl7	2021-01-29	Bob	GRP7_SBJ02_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	065	st_cl7	2021-01-29	Bob	GRP7_SBJ03_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	069	st_cl7	2021-01-29	Bob	GRP7_SBJ04_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	062	st_cl7	2021-01-29	Bob	GRP7_SBJ05_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	066	st_cl7	2021-01-29	Bob	GRP7_SBJ06_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	063	st_cl7	2021-01-29	Bob	GRP7_SBJ07_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	070	st_cl7	2021-01-29	Bob	GRP7_SBJ08_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	067	st_cl7	2021-01-29	Bob	GRP7_SBJ09_st_cl7_SMP-muscle-1	muscle
+GRP7_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	064	st_cl7	2021-01-29	Bob	GRP7_SBJ10_st_cl7_SMP-muscle-1	muscle
+GRP8_SBJ01	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	076	st_cl8	2021-01-29	Bob	GRP8_SBJ01_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ02	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	071	st_cl8	2021-01-29	Bob	GRP8_SBJ02_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ03	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	078	st_cl8	2021-01-29	Bob	GRP8_SBJ03_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ04	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	072	st_cl8	2021-01-29	Bob	GRP8_SBJ04_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ05	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	079	st_cl8	2021-01-29	Bob	GRP8_SBJ05_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ06	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	073	st_cl8	2021-01-29	Bob	GRP8_SBJ06_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ07	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	074	st_cl8	2021-01-29	Bob	GRP8_SBJ07_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ08	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	080	st_cl8	2021-01-29	Bob	GRP8_SBJ08_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ09	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	075	st_cl8	2021-01-29	Bob	GRP8_SBJ09_st_cl8_SMP-muscle-1	muscle
+GRP8_SBJ10	Human	NCIT	http://purl.obolibrary.org/obo/NCIT_C14225	sample collection	077	st_cl8	2021-01-29	Bob	GRP8_SBJ10_st_cl8_SMP-muscle-1	muscle

@@ -1,0 +1,153 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name
+Term Source File
+Term Source Version
+Term Source Description
+INVESTIGATION
+Investigation Identifier	PERISCOPE
+Investigation Title	PERtussIS COrrelates of Protection Europe
+Investigation Description	Investigates Bordatela pertussis infection and aims to accelerate the development of new vaccines
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	BERT
+Study Title	Booster Against Pertussis
+Study Description	"The BERT Booster against pertussis (whooping cough) study investigates
+long-term protection against pertussis by giving a repeated vaccination against pertussis."
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_bert.txt
+STUDY DESIGN DESCRIPTORS
+Study Design Type
+Study Design Type Term Accession Number
+Study Design Type Term Source REF
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name
+Study Factor Type
+Study Factor Type Term Accession Number
+Study Factor Type Term Source REF
+STUDY ASSAYS
+Study Assay File Name
+Study Assay Measurement Type
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
+Study Assay Technology Type
+Study Assay Technology Type Term Accession Number
+Study Assay Technology Type Term Source REF
+Study Assay Technology Platform
+STUDY PROTOCOLS
+Study Protocol Name	sample collection-bert	sample collection-bert
+Study Protocol Type	sample collection	sample collection
+Study Protocol Type Term Accession Number		
+Study Protocol Type Term Source REF		
+Study Protocol Description		
+Study Protocol URI		
+Study Protocol Version		
+Study Protocol Parameters Name		
+Study Protocol Parameters Name Term Accession Number		
+Study Protocol Parameters Name Term Source REF		
+Study Protocol Components Name		
+Study Protocol Components Type		
+Study Protocol Components Type Term Accession Number		
+Study Protocol Components Type Term Source REF		
+STUDY CONTACTS
+Study Person Last Name	van Schuppen	Berbers	Barkoff	van Gageldonk
+Study Person First Name	Evi	Guy	Alex	Pieter
+Study Person Mid Initials				
+Study Person Email	evi.vanSchuppen@radboudumc.nl	guy.berbers@rivm.nl	ambark@utu.fi	pieter.van.gageldonk@rivm.nl
+Study Person Phone				
+Study Person Fax				
+Study Person Address				
+Study Person Affiliation	Radboud UMC	RIVM, the Netherlands	University of Turku	RIVM, the Netherlands
+Study Person Roles				
+Study Person Roles Term Accession Number				
+Study Person Roles Term Source REF				
+STUDY
+Study Identifier	HCM
+Study Title	Human Challenge Colonisation
+Study Description	"The Human Challenge study investigates the effect of the Bordatela pertussis (whooping cough)
+inoculation on healthy individuals"
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_hcm.txt
+STUDY DESIGN DESCRIPTORS
+Study Design Type
+Study Design Type Term Accession Number
+Study Design Type Term Source REF
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name
+Study Factor Type
+Study Factor Type Term Accession Number
+Study Factor Type Term Source REF
+STUDY ASSAYS
+Study Assay File Name
+Study Assay Measurement Type
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
+Study Assay Technology Type
+Study Assay Technology Type Term Accession Number
+Study Assay Technology Type Term Source REF
+Study Assay Technology Platform
+STUDY PROTOCOLS
+Study Protocol Name	sample collection-hcm-1	sample collection-hcm-1
+Study Protocol Type	sample collection	sample collection
+Study Protocol Type Term Accession Number		
+Study Protocol Type Term Source REF		
+Study Protocol Description		
+Study Protocol URI		
+Study Protocol Version		
+Study Protocol Parameters Name		
+Study Protocol Parameters Name Term Accession Number		
+Study Protocol Parameters Name Term Source REF		
+Study Protocol Components Name		
+Study Protocol Components Type		
+Study Protocol Components Type Term Accession Number		
+Study Protocol Components Type Term Source REF		
+STUDY CONTACTS
+Study Person Last Name	Hill	van Schuppen	Berbers
+Study Person First Name	Alison	Evi	Guy
+Study Person Mid Initials			
+Study Person Email	email:ah1g12@soton.ac.uk	evi.vanSchuppen@radboudumc.nl	guy.berbers@rivm.nl
+Study Person Phone			
+Study Person Fax			
+Study Person Address			
+Study Person Affiliation	University of Southampton	Radboud UMC	RIVM, the Netherlands
+Study Person Roles			
+Study Person Roles Term Accession Number			
+Study Person Roles Term Source REF			

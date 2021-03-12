@@ -1,0 +1,3 @@
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Sample Name
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection-hcm-1	nasal mucosal lining fluid
+human individual-1	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection-hcm-1	serum

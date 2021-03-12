@@ -1,0 +1,2147 @@
+{
+    "treatmentPlan": {
+      "screen": {
+        "name": "screen",
+        "duration": null,
+        "durationUnit": ""
+      },
+      "runIn": {
+        "name": "run-in",
+        "duration": null,
+        "durationUnit": ""
+      },
+      "washout": {
+        "name": "washout",
+        "duration": "5",
+        "durationUnit": "days"
+      },
+      "followUp": {
+        "name": "follow-up",
+        "duration": 60,
+        "durationUnit": "days"
+      },
+      "treatments": [
+        {
+          "agent": "ibuprofen",
+          "intensity": 8,
+          "intensityUnit": "mg",
+          "duration": 10,
+          "durationUnit": "days"
+        },
+        {
+          "agent": "aspirin",
+          "intensity": 5,
+          "intensityUnit": "mg",
+          "duration": 10,
+          "durationUnit": "days"
+        },
+        {
+          "agent": "paracetamol",
+          "intensity": 10,
+          "intensityUnit": "mg",
+          "duration": 10,
+          "durationUnit": "days"
+        }
+      ],
+      "elementParams": {
+        "agents": [],
+        "intensities": [],
+        "intensityUnit": "",
+        "durations": [],
+        "durationUnit": ""
+      }
+    },
+    "generatedStudyDesign": {
+      "name": "test study",
+      "description": "this is the verbose description",
+      "type": {
+        "term": "crossover design",
+        "id": "OBI:0500003",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0500003"
+      },
+      "elements": [
+        {
+          "id": "83978887-be4c-4cac-afb6-0faad3d07c86",
+          "name": "treatment_0",
+          "duration": 10,
+          "durationUnit": "days",
+          "agent": "ibuprofen",
+          "intensity": 8,
+          "intensityUnit": "mg"
+        },
+        {
+          "id": "e283a7c5-955f-4d3b-b99e-0053a2af5a61",
+          "name": "washout",
+          "duration": 5,
+          "durationUnit": "days"
+        },
+        {
+          "id": "696a2da4-329a-4b39-a681-e402afb4e89f",
+          "name": "treatment_1",
+          "duration": 10,
+          "durationUnit": "days",
+          "agent": "aspirin",
+          "intensity": 5,
+          "intensityUnit": "mg"
+        },
+        {
+          "id": "6bf4662d-852f-44ad-9b46-acff5291c47f",
+          "name": "treatment_2",
+          "duration": 10,
+          "durationUnit": "days",
+          "agent": "paracetamol",
+          "intensity": 10,
+          "intensityUnit": "mg"
+        },
+        {
+          "id": "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7",
+          "name": "follow-up",
+          "duration": 60,
+          "durationUnit": "days"
+        }
+      ],
+      "events": [],
+      "arms": [
+        {
+          "id": "#arm/0",
+          "name": "Arm_0",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "id": "#arm/1",
+          "name": "Arm_1",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "id": "#arm/2",
+          "name": "Arm_2",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "id": "#arm/3",
+          "name": "Arm_3",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "id": "#arm/4",
+          "name": "Arm_4",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "id": "#arm/5",
+          "name": "Arm_5",
+          "subjectType": "human",
+          "size": 5,
+          "epochs": [
+            {
+              "elements": [
+                "6bf4662d-852f-44ad-9b46-acff5291c47f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "696a2da4-329a-4b39-a681-e402afb4e89f"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "83978887-be4c-4cac-afb6-0faad3d07c86"
+              ],
+              "events": []
+            },
+            {
+              "elements": [
+                "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    "selectedArms": [
+      {
+        "id": "#arm/0",
+        "name": "Arm_0",
+        "subjectType": "human",
+        "size": 5,
+        "epochs": [
+          {
+            "elements": [
+              "83978887-be4c-4cac-afb6-0faad3d07c86"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "696a2da4-329a-4b39-a681-e402afb4e89f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "6bf4662d-852f-44ad-9b46-acff5291c47f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": "#arm/2",
+        "name": "Arm_2",
+        "subjectType": "human",
+        "size": 5,
+        "epochs": [
+          {
+            "elements": [
+              "696a2da4-329a-4b39-a681-e402afb4e89f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "83978887-be4c-4cac-afb6-0faad3d07c86"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "6bf4662d-852f-44ad-9b46-acff5291c47f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": "#arm/4",
+        "name": "Arm_4",
+        "subjectType": "human",
+        "size": 5,
+        "epochs": [
+          {
+            "elements": [
+              "6bf4662d-852f-44ad-9b46-acff5291c47f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "83978887-be4c-4cac-afb6-0faad3d07c86"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "696a2da4-329a-4b39-a681-e402afb4e89f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": "#arm/3",
+        "name": "Arm_3",
+        "subjectType": "human",
+        "size": 5,
+        "epochs": [
+          {
+            "elements": [
+              "696a2da4-329a-4b39-a681-e402afb4e89f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "6bf4662d-852f-44ad-9b46-acff5291c47f"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "e283a7c5-955f-4d3b-b99e-0053a2af5a61"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "83978887-be4c-4cac-afb6-0faad3d07c86"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "28e829e2-030c-41ad-b9b9-b7a0e1a9b3e7"
+            ],
+            "events": []
+          }
+        ]
+      }
+    ],
+    "samplePlan": [
+      {
+        "sampleType": "saliva",
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "sampleTypeSizes": {
+          "Arm_0": [
+            1,
+            null,
+            1,
+            null,
+            1,
+            1
+          ],
+          "Arm_2": [
+            1,
+            null,
+            1,
+            null,
+            1,
+            1
+          ],
+          "Arm_4": [
+            1,
+            null,
+            1,
+            null,
+            1,
+            1
+          ],
+          "Arm_3": [
+            1,
+            null,
+            1,
+            null,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "sampleType": "blood",
+        "selectedCells": {
+          "Arm_0": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "Arm_2": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "Arm_4": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "Arm_3": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        "sampleTypeSizes": {
+          "Arm_0": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "Arm_2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "Arm_4": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "Arm_3": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            2
+          ]
+        }
+      }
+    ],
+    "assayConfigs": [
+      {
+        "id": 0,
+        "name": "Metabolite Profiling - Mass. Spec.",
+        "icon": "fa fa-dna",
+        "color": "green",
+        "measurement_type": "metabolite profiling",
+        "technology_type": "mass spectrometry",
+        "workflow": [
+          [
+            "extraction",
+            {
+              "#replicates": {
+                "value": 1
+              }
+            }
+          ],
+          [
+            "extract",
+            {
+              "node_type": "extract",
+              "characteristics_category": "extract type",
+              "characteristics_value": {
+                "options": [
+                  "polar fraction",
+                  "nonpolar fraction"
+                ],
+                "values": [
+                  "polar fraction"
+                ]
+              },
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ],
+          [
+            "labeling",
+            {
+              "#replicates": {
+                "value": 1
+              }
+            }
+          ],
+          [
+            "labeled extract",
+            {
+              "node_type": "labeled extract",
+              "characteristics_category": "labelled extract type",
+              "characteristics_value": {
+                "options": [
+                  "biotin","cy-5","cy-3"
+                ],
+                "values": [
+                  "biotin"
+                ]
+              },
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ],
+          [
+            "mass spectrometry",
+            {
+              "#replicates": {
+                "value": 2
+              },
+              "instrument": {
+                "options": [
+                  "Agilent QTQF 6510",
+                  "Agilent QTQF 6520A"
+                ],
+                "values": [
+                  "Agilent QTQF 6510"
+                ]
+              },
+              "injection_mode": {
+                "options": [
+                  "FIA",
+                  "LC"
+                ],
+                "values": [
+                  "LC"
+                ]
+              },
+              "acquisition_mode": {
+                "options": [
+                  "positive mode",
+                  "negative mode"
+                ],
+                "values": [
+                  "positive mode",
+                  "negative mode"
+                ]
+              }
+            }
+          ],
+          [
+            "raw spectral data file",
+            {
+              "node_type": "data file",
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ]
+        ],
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "selectedSampleTypes": {
+          "Arm_0": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_2": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_4": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_3": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "name": "Metabolite Profiling - Mass. Spec. (Annotated)",
+        "icon": "fa fa-dna",
+        "color": "blue",
+        "measurement_type": {
+          "term": "metabolite profiling",
+          "iri": "http://purl.obolibrary.org/obo/OBI_0000366",
+          "source": null
+        },
+        "technology_type": {
+          "term": "mass spectrometry",
+          "iri": "http://purl.obolibrary.org/obo/OBI_0000470",
+          "source": null
+        },
+        "workflow": [
+          [
+            {
+              "term": "extraction",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0302884",
+              "source": null
+            },
+            {
+              "#replicates": {
+                "value": 1
+              }
+            }
+          ],
+          [
+            {
+              "term": "extract",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0000423"
+            },
+            {
+              "node_type": "extract",
+              "characteristics_category": {
+                "term": "extract type",
+                "iri": "http://purl.obolibrary.org/obo/OBI_0000423",
+                "source": "OBI"
+              },
+              "characteristics_value": {
+                "options": [
+                  {
+                    "term": "polar fraction",
+                    "iri": "polar fraction",
+                    "source": null
+                  },
+                  {
+                    "term": "lipids",
+                    "iri": "lipids",
+                    "source": null
+                  }
+                ],
+                "values": [
+                  {
+                    "term": "polar fraction",
+                    "iri": "polar fraction",
+                    "source": null
+                  }
+                ]
+              },
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ],
+          [
+            {
+              "term": "labeling",
+              "iri": "http://purl.obolibrary.org/obo/CHMO_0001675",
+              "source": null
+            },
+            {
+              "#replicates": {
+                "value": 1
+              }
+            }
+          ],
+          [
+            {
+              "term": "labeled extract",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0000924",
+              "source": null
+            },
+            {
+              "node_type": "labeled extract",
+              "characteristics_category": {
+                "term": "labelled extract type",
+                "iri": null,
+                "source": null
+              },
+              "characteristics_value": {
+                "options": [
+                  {
+                    "term": "biotin",
+                    "iri": "biotin",
+                    "source": null
+                  },
+                  {
+                    "term": "cy-5",
+                    "iri": "cy-5",
+                    "source": null
+                  },
+                  {
+                    "term": "cy-3",
+                    "iri": "cy-3",
+                    "source": null
+                  }
+                ],
+                "values": [
+                  {
+                    "term": "cy-3",
+                    "iri": "cy-3",
+                    "source": null
+                  }
+                ]
+              },
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ],
+          [
+            {
+              "term": "mass spectrometry",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0200085",
+              "source": null
+            },
+            {
+              "#replicates": {
+                "value": 1
+              },
+              "instrument": {
+                "options": [
+                  {
+                    "term": "Agilent QTQF 6510",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1000676",
+                    "source": null
+                  },
+                  {
+                    "term": "Agilent QTQF 6520A",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1000677",
+                    "source": null
+                  }
+                ],
+                "values": [
+                  {
+                    "term": "Agilent QTQF 6520A",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1000677",
+                    "source": null
+                  }
+                ]
+              },
+              "injection_mode": {
+                "options": [
+                  {
+                    "term": "FIA",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1000058",
+                    "source": null
+                  },
+                  {
+                    "term": "LC",
+                    "iri": "LC",
+                    "source": null
+                  }
+                ],
+                "values": []
+              },
+              "acquisition_mode": {
+                "options": [
+                  {
+                    "term": "positive mode",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1002807",
+                    "source": "MS"
+                  }
+                ],
+                "values": [
+                  {
+                    "term": "positive mode",
+                    "iri": "http://purl.obolibrary.org/obo/MS_1002807",
+                    "source": "MS"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "term": "raw spectral data file",
+              "iri": "http://purl.obolibrary.org/obo/MS_1003083",
+              "source": "MS"
+            },
+            {
+              "node_type": "data file",
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ]
+        ],
+        "@context": {
+          "measurement_type": "http://purl.obolibrary.org/obo/NCIT_C25209",
+          "technology_type": "http://www.ebi.ac.uk/efo/EFO_0005521",
+          "instrument": "http://purl.obolibrary.org/obo/MS_1000463",
+          "injection_mode": "http://purl.obolibrary.org/obo/MS_1000007",
+          "acquisition_mode": "http://purl.obolibrary.org/obo/MS_1000027"
+        },
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "selectedSampleTypes": {
+          "Arm_0": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_2": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_4": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_3": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Metabolite Profiling - NMR",
+        "icon": "fa fa-atom",
+        "color": "orange",
+        "measurement_type": "metabolite profiling",
+        "technology_type": "NMR spectroscopy",
+        "workflow": [
+          [
+            "extraction",
+            {
+              "#replicates": {
+                "value": 1
+              }
+            }
+          ],
+          [
+            "extract",
+            {
+              "node_type": "extract",
+              "characteristics_category": "extract type",
+              "characteristics_value": {
+                "options": [
+                  "supernatant",
+                  "pellet"
+                ],
+                "values": ["pellet"]
+              },
+              "is_input_to_next_protocols": {
+                "value": true
+              }
+            }
+          ],
+[
+                {
+                    "term": "nmr sample",
+                    "iri": null,
+                    "source": null
+                },
+                {
+                    "#replicates": {
+                        "value": 1
+                    },
+                    "NMR tube type": {
+                        "description": "",
+                        "options": [
+                            {
+                                "term": "4 mm standard MAS rotor",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000379",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000393",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "2.5 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000375",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "1.7 mm SampleJet",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000372",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm 7 in (Wilmad-LabGlass)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000387",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm Shigemi D2O matched",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000390",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm short",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000391",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "1.7 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000373",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "3 mm (Norell)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000377",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "3 mm SampleJet",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000378",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "4 mm Zirconia MAS rotor",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000380",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm 541-pp",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000386",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "10 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000394",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "4.25 mm (Bruker BioSpin)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000381",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm SampleJet",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000389",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm (Norell Inc.)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000384",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm (Wilmad-LabGlass)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000385",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "4.25 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000382",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm 7 in 507-grade",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000388",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm (New Era)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000383",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "5 mm ST500-7 (Norell)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000392",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "3 mm standard",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000376",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "1.7 mm (Norell)",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000374",
+                                "source": "Metabolights.owl"
+                            }
+                        ],
+                        "values": ["1.7 mm (Norell)"]
+                    },
+                    "NMR solvent": {
+                        "description": "",
+                        "options": [
+                            {
+                                "term": "CD3OD + phosphate sodium buffer D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000363",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.01 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000348",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M potassium phosphate buffered D2O + 5 mM maleic acid",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000369",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000352",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.1 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000350",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "phosphate-buffered saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001163",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "H20 + D20",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001157",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "CD3OD",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001154",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M potassium phosphate buffered D2O + 0.128 mM TSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001160",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.05 mM phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001145",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "D2O + 0.35 mM TSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001143",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.07 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001155",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.07 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001150",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.1 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001164",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.154 M saline D20",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001156",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001149",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001153",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "1 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001165",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.01 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001147",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "CD3OD + phosphate sodium buffer D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001159",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "10% D2O/0.04 mM sodium phosphate buffer/0.4 mM TMSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001162",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001151",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "phosphate sodium buffer",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001144",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.04 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001148",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M potassium phosphate buffered D2O + 5 mM maleic acid ",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001158",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.9% NaCl in D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001142",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "CDCL3",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001141",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.15 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001146",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.3 M saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001152",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.5 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001161",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.1 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000359",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.9% NaCl in D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000366",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "phosphate-buffered saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000368",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "1 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000354",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.15 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000351",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "H20 + D20",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000362",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.2 M potassium phosphate buffered D2O + 0.128 mM TSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000364",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "CDCL3",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000361",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000371",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000356",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.154 M saline D20",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000370",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.05 mM phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000347",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.07 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000358",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "CD3OD",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000355",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.3 M saline D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000367",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.5 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000353",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.04 M phosphate buffered D2O/H2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000357",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "phosphate sodium buffer",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000360",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "0.07 M phosphate buffered D2O",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000349",
+                                "source": "Metabolights.owl"
+                            },
+                            {
+                                "term": "D2O + 0.35 mM TSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000365",
+                                "source": "Metabolights.owl"
+                            }
+                        ],
+                        "values": [{
+                                "term": "D2O + 0.35 mM TSP",
+                                "iri": "http://www.ebi.ac.uk/metabolights/ontology/MTBLS_000365",
+                                "source": "Metabolights.owl"
+                            }]
+                    },
+                    "NMR Sample pH": {
+                        "description": "",
+                        "options": [],
+                        "values": ["7.0"]
+                    },
+                    "NMR Temperature": {
+                        "description": "",
+                        "options": [],
+                        "values": ["65 degree C"]
+                    }
+                }
+            ],          
+          [
+            "nmr_spectroscopy",
+            {
+              "#replicates": {
+                "value": 1
+              },
+              "instrument": {
+                "options": [
+                  "Bruker AvanceII 1 GHz"
+                ],
+                "values": ["Bruker AvanceII 1 GHz"]
+              },
+              "acquisition_mode": {
+                "options": [
+                  "1D 13C NMR",
+                  "1D 1H NMR",
+                  "2D 13C-13C NMR"
+                ],
+                "values": ["1D 13C NMR"]
+              },
+              "pulse_sequence": {
+                "options": [
+                  "CPMG",
+                  "TOCSY",
+                  "HOESY",
+                  "watergate"
+                ],
+                "values": ["CPMG"]
+              }
+            }
+          ],
+          [
+            "raw_spectral_data_file",
+            {
+              "node_type": "data file",
+              "size": 1,
+              "is_input_to_next_protocols": {
+                "value": false
+              }
+            }
+          ]
+        ],
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "selectedSampleTypes": {
+          "Arm_0": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_2": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_4": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_3": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ]
+        }
+      },
+{
+        "id": 14,
+        "name": "RNA-Seq",
+        "icon": "fa fa-dna",
+        "color": "red",
+        "measurement_type": "transcriptomics profiling",
+        "technology_type": "nucleic acid sequencing",
+        "workflow": [
+            [
+                "extraction",
+                {
+                    "#replicates": {"value": 1}
+                }
+            ],
+            [
+                "extract",
+                {
+                    "node_type": "extract",
+                    "characteristics_category": "extract type",
+                    "characteristics_value": {
+                        "options": [
+                            "mRNA",
+                            "total RNA",
+                            "ncRNA",
+                            "tRNA"
+                        ],
+                        "values": ["mRNA"]
+                    },
+                    "is_input_to_next_protocols": {"value": true}
+                }
+            ],
+            [
+                "nucleic acid sequencing",
+                {
+                    "#replicates": {"value": 1},
+                    "sequencing instrument": {
+                        "options": ["454 GS","454 GS 20","454 GS FLX","454 GS FLX+","454 GS FLX Titanium","454 GS Junior","HiSeq X Five","HiSeq X Ten","Illumina Genome Analyzer","Illumina Genome Analyzer II","Illumina Genome Analyzer IIx","Illumina HiScanSQ","Illumina HiSeq 1000","Illumina HiSeq 1500","Illumina HiSeq 2000","Illumina HiSeq 2500","Illumina HiSeq 3000","Illumina HiSeq 4000","Illumina iSeq 100","Illumina MiSeq","Illumina MiniSeq","Illumina NovaSeq 6000","NextSeq 500","NextSeq 550","PacBio RS","PacBio RS II","Sequel","Ion Torrent PGM","Ion Torrent Proton","Ion Torrent S5","Ion Torrent S5 XL","AB 3730xL Genetic Analyzer","AB 3730 Genetic Analyzer","AB 3500xL Genetic Analyzer","AB 3500 Genetic Analyzer","AB 3130xL Genetic Analyzer","AB 3130 Genetic Analyzer","AB 310 Genetic Analyzer","MinION","GridION","PromethION","BGISEQ-500","DNBSEQ-T7","DNBSEQ-G400","DNBSEQ-G50","DNBSEQ-G400 FAST","unspecified"
+                        ],
+                        "values": ["Illumina Genome Analyzer"]
+                    },
+                    "library orientation": {
+                        "options": [
+                            "single-end",
+                            "paired-end"
+                        ],
+                        "values": ["single-end"]
+                    }
+                }
+            ],
+            [
+                "raw_data_file",
+                {
+                    "node_type": "data file",
+                    "size": 1,
+                    "is_input_to_next_protocols": {"value": false}
+                }
+            ]
+        ],
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "selectedSampleTypes": {
+          "Arm_0": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_2": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_4": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_3": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ]
+        }
+    },
+{
+        "id": 16,
+        "name": "DNA Methylation profiling by sequencing",
+        "icon": "fa fa-dna",
+        "color": "red",
+        "measurement_type": "DNA methylation profiling",
+        "technology_type": "nucleic acid sequencing",
+        "workflow": [
+            [
+                "extraction",
+                {
+                    "#replicates": {"value": 1}
+               }
+            ],
+            [
+                "extract",
+                {
+                    "node_type": "extract",
+                    "characteristics_category": "extract type",
+                    "characteristics_value": {
+                        "options": [
+                            "GENOMIC",
+                            "GENOMIC SINGLE CELL",
+                            "METAGENOMIC",
+                            "OTHER"
+                        ],  
+                        "values": ["GENOMIC"]
+                    },
+                    "is_input_to_next_protocols": {"value": true}
+                }
+            ],   
+            [ 
+              "nucleic acid sequencing",
+                {
+                    "#replicates": {"value": 1},
+                    "sequencing instrument": {
+                        "options": ["454 GS","454 GS 20","454 GS FLX","454 GS FLX+","454 GS FLX Titanium","454 GS Junior","HiSeq X Five","HiSeq X Ten","Illumina Genome Analyzer","Illumina Genome Analyzer II","Illumina Genome Analyzer IIx","Illumina HiScanSQ","Illumina HiSeq 1000","Illumina HiSeq 1500","Illumina HiSeq 2000","Illumina HiSeq 2500","Illumina HiSeq 3000","Illumina HiSeq 4000","Illumina iSeq 100","Illumina MiSeq","Illumina MiniSeq","Illumina NovaSeq 6000","NextSeq 500","NextSeq 550","PacBio RS","PacBio RS II","Sequel","Ion Torrent PGM","Ion Torrent Proton","Ion Torrent S5","Ion Torrent S5 XL","AB 3730xL Genetic Analyzer","AB 3730 Genetic Analyzer","AB 3500xL Genetic Analyzer","AB 3500 Genetic Analyzer","AB 3130xL Genetic Analyzer","AB 3130 Genetic Analyzer","AB 310 Genetic Analyzer","MinION","GridION","PromethION","BGISEQ-500","DNBSEQ-T7","DNBSEQ-G400","DNBSEQ-G50","DNBSEQ-G400 FAST","unspecified"
+                        ],
+                        "values": ["Illumina Genome Analyzer"]
+                    },
+                    "library orientation": {
+                        "options": [
+                            "single-end",
+                            "paired-end"
+                        ],
+                        "values": ["single-end"]
+                    },
+                    "library selection": {
+                        "options": [
+                            "PCR","RANDOM-PCR","HMPR","MF","MSLL","5-methylcytidine antibody","MBD2 protein methyl-CpG binding domain","other","unspecified"
+                        ],
+                        "values" :["5-methylcytidine antibody"]
+                    },
+                    "library strategy": {
+                        "options":[
+                           "Bisulfite-Seq","MRE-Seq","MeDIP-Seq","MBD-Seq","OTHER"
+                        ],
+                        "values": ["MeDIP-Seq"]
+                    }
+                }
+                  ],
+            [
+                "raw_data_file",
+                {
+                    "node_type": "data file",
+                    "size": 1,
+                    "is_input_to_next_protocols": {"value": false}
+                }
+            ]
+        ],
+        "selectedCells": {
+          "Arm_0": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_2": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_4": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "Arm_3": [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "selectedSampleTypes": {
+          "Arm_0": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_2": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_4": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ],
+          "Arm_3": [
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [],
+            [
+              "saliva"
+            ],
+            [
+              "saliva",
+              "blood"
+            ]
+          ]
+        }
+    }            
+    ],
+    "selectedAssayTypes": {
+      "Metabolite Profiling - Mass. Spec.": false,
+      "Metabolite Profiling - Mass. Spec. (Annotated)": true,
+      "Metabolite Profiling - NMR": true,
+      "RNA-Seq": true,
+      "DNA Methylation profiling by sequencing": true
+    }
+  }

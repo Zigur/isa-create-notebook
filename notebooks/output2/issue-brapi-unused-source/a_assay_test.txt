@@ -1,0 +1,5 @@
+Sample Name	Protocol REF	Assay Name	Raw Data File
+SBJ0_sample1	data acquisition	SBJ0_sample1	file1.txt
+SBJ1_sample2	data acquisition	SBJ1_sample2	file2.txt
+SBJ1_sample1	data acquisition	SBJ1_sample1	file3.txt
+human individual-2	dummy_protocol	human individual-2	file4.txt
