@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#output files
+notebooks/output
+
+# macOS files
+.DS_Store
+notebooks/.DS_Store
