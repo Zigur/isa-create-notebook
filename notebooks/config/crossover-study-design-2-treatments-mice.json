@@ -1,0 +1,1259 @@
+{
+  "name": "Test study",
+  "description": "This design describes a study with repeated treatments on the same arms. We will be collecting three samples and these will undergo three different assays.",
+  "subjectType": "Mouse",
+  "subjectSize": 10,
+  "designType": {
+    "term": "crossover design",
+    "id": "OBI:0500003",
+    "iri": "http://purl.obolibrary.org/obo/OBI_0500003",
+    "label": "Study subjects receive repeated treatments",
+    "value": "crossover"
+  },
+  "observationalFactors": [
+    {
+      "name": "sex",
+      "values": [
+        "M",
+        "F"
+      ],
+      "isQuantitative": false,
+      "unit": null
+    }
+  ],
+  "subjectGroups": {
+    "selected": [
+      {
+        "name": "SubjectGroup_0",
+        "type": "Mouse",
+        "characteristics": [
+          {
+            "name": "sex",
+            "value": "M",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ]
+      },
+      {
+        "name": "SubjectGroup_1",
+        "type": "Mouse",
+        "characteristics": [
+          {
+            "name": "sex",
+            "value": "F",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ]
+      }
+    ],
+    "unselected": []
+  },
+  "treatmentPlan": {
+    "screen": {
+      "selected": true,
+      "name": "screen",
+      "duration": 10,
+      "durationUnit": "days"
+    },
+    "runIn": {
+      "selected": true,
+      "name": "run-in",
+      "duration": 5,
+      "durationUnit": "days"
+    },
+    "washout": {
+      "selected": true,
+      "name": "washout",
+      "duration": 7,
+      "durationUnit": "days"
+    },
+    "followUp": {
+      "selected": true,
+      "name": "follow-up",
+      "duration": 3,
+      "durationUnit": "months"
+    },
+    "treatments": [
+      {
+        "interventionType": {
+          "id": "ero:class:http://purl.obolibrary.org/obo/ERO_0000599",
+          "iri": "http://purl.obolibrary.org/obo/ERO_0000599",
+          "short_form": "ERO_0000599",
+          "obo_id": "ERO:0000599",
+          "label": "dietary intervention",
+          "ontology_name": "ero",
+          "ontology_prefix": "ERO",
+          "type": "class"
+        },
+        "agent": "strontium chloride sr 89",
+        "intensity": 2,
+        "intensityUnit": "MBq/Kg",
+        "duration": 40,
+        "durationUnit": "days"
+      },
+      {
+        "interventionType": {
+          "id": "ero:class:http://purl.obolibrary.org/obo/ERO_0000600",
+          "iri": "http://purl.obolibrary.org/obo/ERO_0000600",
+          "short_form": "ERO_0000600",
+          "obo_id": "ERO:0000600",
+          "label": "drug intervention",
+          "ontology_name": "ero",
+          "ontology_prefix": "ERO",
+          "type": "class"
+        },
+        "agent": "cyclophosphamide",
+        "intensity": 500,
+        "intensityUnit": "mg",
+        "duration": 20,
+        "durationUnit": "days"
+      }
+    ],
+    "elementParams": {
+      "interventionType": null,
+      "agents": [],
+      "intensities": [],
+      "intensityUnit": "",
+      "durations": [],
+      "durationUnit": ""
+    }
+  },
+  "elements": [
+    {
+      "id": "f2f3b834-0555-4d2c-8aa9-835df184d188",
+      "name": "screen",
+      "duration": 10,
+      "durationUnit": "days"
+    },
+    {
+      "id": "482fe6ce-0ddb-4c9e-9da1-063805f534b7",
+      "name": "run-in",
+      "duration": 5,
+      "durationUnit": "days"
+    },
+    {
+      "id": "59e2cfb5-0133-4f3f-af2c-000e2c991744",
+      "name": "treatment_0",
+      "interventionType": {
+        "term": "dietary intervention",
+        "iri": "http://purl.obolibrary.org/obo/ERO_0000599"
+      },
+      "duration": 40,
+      "durationUnit": "days",
+      "agent": "strontium chloride sr 89",
+      "intensity": 2,
+      "intensityUnit": "MBq/Kg"
+    },
+    {
+      "id": "7fb4d4c4-f7e5-4a16-86af-53c7e96eb5fb",
+      "name": "washout",
+      "duration": 7,
+      "durationUnit": "days"
+    },
+    {
+      "id": "2465e61b-7b64-4afb-8c14-edce966bffbe",
+      "name": "treatment_1",
+      "interventionType": {
+        "term": "drug intervention",
+        "iri": "http://purl.obolibrary.org/obo/ERO_0000600"
+      },
+      "duration": 20,
+      "durationUnit": "days",
+      "agent": "cyclophosphamide",
+      "intensity": 500,
+      "intensityUnit": "mg"
+    },
+    {
+      "id": "4e6771bf-a4a5-46a9-a7c6-62d04ab3e126",
+      "name": "follow-up",
+      "duration": 90,
+      "durationUnit": "days"
+    }
+  ],
+  "arms": {
+    "selected": [
+      {
+        "id": 0,
+        "name": "Arm_0",
+        "observationalFactors": [
+          {
+            "name": "sex",
+            "value": "M",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ],
+        "size": 10,
+        "epochs": [
+          {
+            "elements": [
+              "f2f3b834-0555-4d2c-8aa9-835df184d188"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "482fe6ce-0ddb-4c9e-9da1-063805f534b7"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "59e2cfb5-0133-4f3f-af2c-000e2c991744"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "7fb4d4c4-f7e5-4a16-86af-53c7e96eb5fb"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "2465e61b-7b64-4afb-8c14-edce966bffbe"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "4e6771bf-a4a5-46a9-a7c6-62d04ab3e126"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Arm_1",
+        "observationalFactors": [
+          {
+            "name": "sex",
+            "value": "M",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ],
+        "size": 10,
+        "epochs": [
+          {
+            "elements": [
+              "f2f3b834-0555-4d2c-8aa9-835df184d188"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "482fe6ce-0ddb-4c9e-9da1-063805f534b7"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "2465e61b-7b64-4afb-8c14-edce966bffbe"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "7fb4d4c4-f7e5-4a16-86af-53c7e96eb5fb"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "59e2cfb5-0133-4f3f-af2c-000e2c991744"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "4e6771bf-a4a5-46a9-a7c6-62d04ab3e126"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Arm_2",
+        "observationalFactors": [
+          {
+            "name": "sex",
+            "value": "F",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ],
+        "size": 10,
+        "epochs": [
+          {
+            "elements": [
+              "f2f3b834-0555-4d2c-8aa9-835df184d188"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "482fe6ce-0ddb-4c9e-9da1-063805f534b7"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "59e2cfb5-0133-4f3f-af2c-000e2c991744"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "7fb4d4c4-f7e5-4a16-86af-53c7e96eb5fb"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "2465e61b-7b64-4afb-8c14-edce966bffbe"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "4e6771bf-a4a5-46a9-a7c6-62d04ab3e126"
+            ],
+            "events": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Arm_3",
+        "observationalFactors": [
+          {
+            "name": "sex",
+            "value": "F",
+            "unit": null,
+            "isQuantitative": false
+          }
+        ],
+        "size": 10,
+        "epochs": [
+          {
+            "elements": [
+              "f2f3b834-0555-4d2c-8aa9-835df184d188"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "482fe6ce-0ddb-4c9e-9da1-063805f534b7"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "2465e61b-7b64-4afb-8c14-edce966bffbe"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "7fb4d4c4-f7e5-4a16-86af-53c7e96eb5fb"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "59e2cfb5-0133-4f3f-af2c-000e2c991744"
+            ],
+            "events": []
+          },
+          {
+            "elements": [
+              "4e6771bf-a4a5-46a9-a7c6-62d04ab3e126"
+            ],
+            "events": []
+          }
+        ]
+      }
+    ],
+    "unselected": []
+  },
+  "samplePlan": [
+    {
+      "sampleType": "Blood Sample",
+      "selectedCells": {
+        "Arm_0": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_1": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_2": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_3": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "sampleTypeSizes": {
+        "Arm_0": [
+          1,
+          null,
+          2,
+          null,
+          2,
+          3
+        ],
+        "Arm_1": [
+          1,
+          null,
+          2,
+          null,
+          2,
+          3
+        ],
+        "Arm_2": [
+          1,
+          null,
+          2,
+          null,
+          2,
+          3
+        ],
+        "Arm_3": [
+          1,
+          null,
+          2,
+          null,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "sampleType": "Tissue Sample",
+      "selectedCells": {
+        "Arm_0": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "Arm_1": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "Arm_2": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "Arm_3": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "sampleTypeSizes": {
+        "Arm_0": [
+          null,
+          null,
+          null,
+          null,
+          1,
+          null
+        ],
+        "Arm_1": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        "Arm_2": [
+          null,
+          null,
+          null,
+          null,
+          1,
+          null
+        ],
+        "Arm_3": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "sampleType": "Urine",
+      "selectedCells": {
+        "Arm_0": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "Arm_1": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "Arm_2": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "Arm_3": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "sampleTypeSizes": {
+        "Arm_0": [
+          2,
+          1,
+          1,
+          null,
+          1,
+          2
+        ],
+        "Arm_1": [
+          2,
+          1,
+          1,
+          null,
+          1,
+          2
+        ],
+        "Arm_2": [
+          2,
+          1,
+          1,
+          null,
+          1,
+          2
+        ],
+        "Arm_3": [
+          2,
+          1,
+          1,
+          null,
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "assayPlan": [
+    {
+      "id": 1,
+      "name": "metabolite profiling - mass spectrometry (ontology annotated)",
+      "icon": "fas fa-chart-bar",
+      "color": "blue",
+      "measurement_type": {
+        "term": "metabolite profiling",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0000366",
+        "source": null
+      },
+      "technology_type": {
+        "term": "mass spectrometry",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0000470",
+        "source": null
+      },
+      "workflow": [
+        [
+          {
+            "term": "extraction",
+            "iri": "http://purl.obolibrary.org/obo/OBI_0302884",
+            "source": null
+          },
+          {
+            "#replicates": {
+              "value": 1
+            }
+          }
+        ],
+        [
+          {
+            "term": "extract",
+            "iri": "http://purl.obolibrary.org/obo/OBI_0000423"
+          },
+          {
+            "node_type": "extract",
+            "characteristics_category": {
+              "term": "extract type",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0000423",
+              "source": "OBI"
+            },
+            "characteristics_value": {
+              "options": [
+                {
+                  "term": "polar fraction",
+                  "iri": "polar fraction",
+                  "source": null
+                },
+                {
+                  "term": "lipids",
+                  "iri": "lipids",
+                  "source": null
+                }
+              ],
+              "values": [
+                {
+                  "term": "polar fraction",
+                  "iri": "polar fraction",
+                  "source": null
+                }
+              ]
+            },
+            "is_input_to_next_protocols": {
+              "value": true
+            }
+          }
+        ],
+        [
+          {
+            "term": "labeling",
+            "iri": "http://purl.obolibrary.org/obo/CHMO_0001675",
+            "source": null
+          },
+          {
+            "#replicates": {
+              "value": 1
+            }
+          }
+        ],
+        [
+          {
+            "term": "labeled extract",
+            "iri": "http://purl.obolibrary.org/obo/OBI_0000924",
+            "source": null
+          },
+          {
+            "node_type": "labeled extract",
+            "characteristics_category": {
+              "term": "labeled extract type",
+              "iri": "http://purl.obolibrary.org/obo/OBI_0000924",
+              "source": null
+            },
+            "characteristics_value": {
+              "options": [
+                "label_0",
+                "label_1"
+              ],
+              "values": [
+                "label_0"
+              ]
+            },
+            "is_input_to_next_protocols": {
+              "value": true
+            }
+          }
+        ],
+        [
+          {
+            "term": "mass spectrometry",
+            "iri": "http://purl.obolibrary.org/obo/OBI_0200085",
+            "source": null
+          },
+          {
+            "#replicates": {
+              "value": 2
+            },
+            "instrument": {
+              "options": [
+                {
+                  "term": "Agilent QTQF 6510",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1000676",
+                  "source": null
+                },
+                {
+                  "term": "Agilent QTQF 6520A",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1000677",
+                  "source": null
+                }
+              ],
+              "values": [
+                {
+                  "term": "Agilent QTQF 6510",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1000676",
+                  "source": null
+                }
+              ]
+            },
+            "injection_mode": {
+              "options": [
+                {
+                  "term": "FIA",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1000058",
+                  "source": null
+                },
+                {
+                  "term": "LC",
+                  "iri": null,
+                  "source": null
+                }
+              ],
+              "values": [
+                {
+                  "term": "FIA",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1000058",
+                  "source": null
+                },
+                {
+                  "term": "LC",
+                  "iri": null,
+                  "source": null
+                }
+              ]
+            },
+            "acquisition_mode": {
+              "options": [
+                {
+                  "term": "positive mode",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1002807",
+                  "source": null
+                }
+              ],
+              "values": [
+                {
+                  "term": "positive mode",
+                  "iri": "http://purl.obolibrary.org/obo/MS_1002807",
+                  "source": null
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "term": "raw spectral data file",
+            "iri": "http://purl.obolibrary.org/obo/MS_1003083",
+            "source": null
+          },
+          {
+            "node_type": "data file",
+            "is_input_to_next_protocols": {
+              "value": true
+            }
+          }
+        ]
+      ],
+      "@context": {
+        "measurement_type": "http://purl.obolibrary.org/obo/NCIT_C25209",
+        "technology_type": "http://www.ebi.ac.uk/efo/EFO_0005521",
+        "instrument": "http://purl.obolibrary.org/obo/MS_1000463",
+        "injection_mode": "http://purl.obolibrary.org/obo/MS_1000007",
+        "acquisition_mode": "http://purl.obolibrary.org/obo/MS_1000027"
+      },
+      "selectedCells": {
+        "Arm_0": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_1": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_2": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_3": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "selectedSampleTypes": {
+        "Arm_0": [
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ]
+        ],
+        "Arm_1": [
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ]
+        ],
+        "Arm_2": [
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ]
+        ],
+        "Arm_3": [
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [],
+          [
+            "Urine"
+          ],
+          [
+            "Urine"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "genome sequencing by nucleotide sequencing",
+      "icon": "fa fa-dna",
+      "color": "purple",
+      "measurement_type": "genome sequencing",
+      "technology_type": "nucleic acid sequencing",
+      "workflow": [
+        [
+          "extraction",
+          {
+            "#replicates": {
+              "value": 2
+            }
+          }
+        ],
+        [
+          "extract",
+          {
+            "node_type": "extract",
+            "characteristics_category": "extract type",
+            "characteristics_value": {
+              "options": [
+                "gDNA",
+                "DNA"
+              ],
+              "values": [
+                "gDNA",
+                "DNA"
+              ]
+            },
+            "is_input_to_next_protocols": {
+              "value": true
+            }
+          }
+        ],
+        [
+          "library_preparation",
+          {
+            "#replicates": {
+              "value": 2
+            },
+            "instrument": {
+              "options": [
+                "MinION",
+                "GridION",
+                "PromethION",
+                "Illumina HiSeq 4000",
+                "Illumina NovaSeq 6000",
+                "AB 3730xL Genetic Analyzer"
+              ],
+              "values": [
+                "Illumina NovaSeq 6000"
+              ]
+            },
+            "library_orientation": {
+              "options": [
+                "single",
+                "paired"
+              ],
+              "values": [
+                "single"
+              ]
+            },
+            "library_strategy": {
+              "options": [
+                "AMPLICON",
+                "CLONE",
+                "WGA",
+                "WGS",
+                "WXS",
+                "OTHER"
+              ],
+              "values": [
+                "AMPLICON",
+                "WGS"
+              ]
+            }
+          }
+        ],
+        [
+          "raw_data_file",
+          {
+            "node_type": "data file",
+            "size": 1,
+            "is_input_to_next_protocols": {
+              "value": false
+            }
+          }
+        ]
+      ],
+      "selectedCells": {
+        "Arm_0": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "Arm_1": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "Arm_2": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "Arm_3": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "selectedSampleTypes": {
+        "Arm_0": [
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [],
+          [
+            "Tissue Sample"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ]
+        ],
+        "Arm_1": [
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Tissue Sample"
+          ],
+          [],
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ]
+        ],
+        "Arm_2": [
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [],
+          [
+            "Tissue Sample"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ]
+        ],
+        "Arm_3": [
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Tissue Sample"
+          ],
+          [],
+          [
+            "Blood Sample",
+            "Urine"
+          ],
+          [
+            "Blood Sample",
+            "Urine"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "hematology by marker panel",
+      "icon": "fa fa-flask",
+      "color": "red",
+      "measurement_type": "clinical chemistry",
+      "technology_type": "marker panel",
+      "workflow": [
+        [
+          "sample preparation",
+          {
+            "#replicates": {
+              "value": 3
+            }
+          }
+        ],
+        [
+          "raw_data_file",
+          {
+            "node_type": "data file",
+            "size": 1,
+            "is_input_to_next_protocols": {
+              "value": false
+            }
+          }
+        ]
+      ],
+      "selectedCells": {
+        "Arm_0": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_1": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_2": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "Arm_3": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "selectedSampleTypes": {
+        "Arm_0": [
+          [
+            "Blood Sample"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample"
+          ],
+          [],
+          [
+            "Blood Sample"
+          ],
+          [
+            "Blood Sample"
+          ]
+        ],
+        "Arm_1": [
+          [
+            "Blood Sample"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample"
+          ],
+          [],
+          [
+            "Blood Sample"
+          ],
+          [
+            "Blood Sample"
+          ]
+        ],
+        "Arm_2": [
+          [
+            "Blood Sample"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample"
+          ],
+          [],
+          [
+            "Blood Sample"
+          ],
+          [
+            "Blood Sample"
+          ]
+        ],
+        "Arm_3": [
+          [
+            "Blood Sample"
+          ],
+          [
+            "Urine"
+          ],
+          [
+            "Blood Sample"
+          ],
+          [],
+          [
+            "Blood Sample"
+          ],
+          [
+            "Blood Sample"
+          ]
+        ]
+      }
+    }
+  ]
+}
