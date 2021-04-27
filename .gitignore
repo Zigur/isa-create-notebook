@@ -109,3 +109,4 @@ notebooks/output
 # macOS files
 .DS_Store
 notebooks/.DS_Store
+notebooks/output/.DS_Store

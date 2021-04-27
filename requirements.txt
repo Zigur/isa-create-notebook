@@ -2,21 +2,16 @@ bokeh==1.2.0
 holoviews==1.12.3
 ipywidgets==7.4.2
 jupyter==1.0
-matplotlib==3.1.1
-<<<<<<< HEAD
+matplotlib==3.1.2
 numpy~=1.19
 #pandas~=1.0.3
 python-dateutil==2.8.0
 pytz==2019.1
--e git+http://github.com/ISA-tools/isa-api@746fde3f67aafc0f0a9cc0e3014ea4854c035baf#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@36be6d1f57a82754a7b2c5282a1cc2e8dc95a34f#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@bf2375812336107c847f717f1d9b41487c204017#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@746fde3f67aafc0f0a9cc0e3014ea4854c035baf#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@387b126d827a2973bb7ff38e957b8dacbf43314f#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@73233bfce761d152a3007bb4031d8095d033b7a5#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@e8d3081a62355b6dd797c33dcf875e9f0d5aed04#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@3f3e6b39b472bfafde3ca340952dc450f14285ca#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@4e38b09abac60c6acb787169e6eaeac0ac35c1ae#egg=isatools
-=======
-python-dateutil==2.8.0
-pytz==2019.1
-#isatools==0.12.0
--e git+http://github.com/ISA-tools/isa-api@bf2375812336107c847f717f1d9b41487c204017#egg=isatools
->>>>>>> 0775c3ef2bb426997059973e0034466b2d66a4e3
